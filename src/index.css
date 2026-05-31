@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Dark theme (default) */
+  --bg-primary: #0D0D2B;
+  --bg-secondary: #1A1A3E;
+  --bg-card: #1A1A3E;
+  --bg-elevated: #25254F;
+  --text-primary: #FFFFFF;
+  --text-secondary: rgba(255,255,255,0.7);
+  --text-muted: rgba(255,255,255,0.45);
+  --border-color: #2E2E5E;
+  --accent-red: #E63030;
+  --accent-red-light: #FF6060;
+  --accent-gold: #F5D200;
+  --accent-green: #4CAF50;
+  --shadow-sm: 0 4px 12px rgba(0,0,0,0.3);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.4);
+  --shadow-lg: 0 16px 48px rgba(0,0,0,0.5);
+  --transition: all 0.3s ease;
+}
+
+body.light {
+  --bg-primary: #F8F9FA;
+  --bg-secondary: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-elevated: #F1F3F5;
+  --text-primary: #1A1A2E;
+  --text-secondary: #4A4A6A;
+  --text-muted: #6C6C8A;
+  --border-color: #E9ECEF;
+  --shadow-sm: 0 4px 12px rgba(0,0,0,0.05);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.08);
+  --shadow-lg: 0 16px 48px rgba(0,0,0,0.12);
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, .logo-font {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-red);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-red-light);
+}
+/* Leaflet Map Dark Mode Fixes */
+.leaflet-container {
+  background: #0D0D2B;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #1A1A3E;
+  color: white;
+  border-radius: 12px;
+}
+
+.leaflet-popup-tip {
+  background: #1A1A3E;
+}
+
+.leaflet-control-zoom a {
+  background: #1A1A3E !important;
+  color: white !important;
+  border-color: #2E2E5E !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: #E63030 !important;
+}
+
+.custom-marker {
+  background: transparent;
+  border: none;
+}

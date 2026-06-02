@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 
-const API = 'http://localhost:5000';
+const API = 'https://makao-yetu-promax.onrender.com';
 
 const REWARDS = [
   { name: '10 XP', xp: 10, color: '#4CAF50' },

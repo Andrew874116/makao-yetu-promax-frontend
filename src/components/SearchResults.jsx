@@ -5,7 +5,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
-const API = 'http://localhost:5000';
+const API = 'https://makao-yetu-promax.onrender.com';
 
 export default function SearchResults() {
   const [results, setResults] = useState([]);

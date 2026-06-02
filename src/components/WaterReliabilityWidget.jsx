@@ -4,7 +4,7 @@
 
 import { useState, useEffect } from 'react';
 
-const API = 'http://localhost:5000';
+const API = 'https://makao-yetu-promax.onrender.com';
 
 export default function WaterReliabilityWidget({ area }) {
   const [data, setData] = useState(null);

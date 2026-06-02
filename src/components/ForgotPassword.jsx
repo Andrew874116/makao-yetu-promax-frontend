@@ -20,7 +20,7 @@ function ForgotPassword() {
     setMessage('');
 
     try {
-      const response = await fetch('http://localhost:5000/api/forgot_password', {
+      const response = await fetch('https://makao-yetu-promax.onrender.com/api/forgot_password', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email })
@@ -49,7 +49,7 @@ function ForgotPassword() {
     setMessage('');
 
     try {
-      const response = await fetch('http://localhost:5000/api/verify_otp', {
+      const response = await fetch('https://makao-yetu-promax.onrender.com/api/verify_otp', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, otp })
@@ -89,7 +89,7 @@ function ForgotPassword() {
     setMessage('');
 
     try {
-      const response = await fetch('http://localhost:5000/api/reset_password', {
+      const response = await fetch('https://makao-yetu-promax.onrender.com/api/reset_password', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, otp, new_password: newPassword })

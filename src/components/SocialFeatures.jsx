@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const API = 'http://localhost:5000';
+const API = 'https://makao-yetu-promax.onrender.com';
 
 const SocialFeatures = () => {
   const [groupViewings, setGroupViewings] = useState([]);

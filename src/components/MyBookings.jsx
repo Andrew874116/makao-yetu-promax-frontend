@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
-const API = 'http://localhost:5000';
+const API = 'https://makao-yetu-promax.onrender.com';
 
 const S = {
   page: { minHeight:'100vh', background:'#FDF6EE', fontFamily:"'Outfit',sans-serif" },

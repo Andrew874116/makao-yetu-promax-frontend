@@ -6,7 +6,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 
-const API = 'http://localhost:5000';
+const API = 'https://makao-yetu-promax.onrender.com';
 
 export default function ReelsFeed() {
   const [reels, setReels] = useState([]);

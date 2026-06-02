@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import LocationPicker from './LocationPicker';
 
-const API = 'http://localhost:5000';
+const API = 'https://makao-yetu-promax.onrender.com';
 
 const styles = {
   page: { minHeight: '100vh', background: '#0D0D2B', fontFamily: "'Outfit', sans-serif" },

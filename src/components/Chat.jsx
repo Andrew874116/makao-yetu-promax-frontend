@@ -6,8 +6,8 @@ import { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import io from 'socket.io-client';
 
-const API = 'http://localhost:5000';
-const SOCKET_URL = 'http://localhost:5000';
+const API = 'https://makao-yetu-promax.onrender.com';
+const SOCKET_URL = 'https://makao-yetu-promax.onrender.com';
 
 export default function Chat() {
   const navigate = useNavigate();

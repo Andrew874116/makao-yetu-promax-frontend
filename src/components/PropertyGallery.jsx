@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import Masonry from 'react-masonry-css';
 import { Link } from 'react-router-dom';
 
-const API = 'http://localhost:5000';
+const API = 'https://makao-yetu-promax.onrender.com';
 
 const breakpointColumns = {
   default: 4,

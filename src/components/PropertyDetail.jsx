@@ -8,7 +8,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import WaterReliabilityWidget from './WaterReliabilityWidget';
 import BlackoutScoreWidget from './BlackoutScoreWidget';
 
-const API = 'http://localhost:5000';
+const API = 'https://makao-yetu-promax.onrender.com';
 
 export default function PropertyDetail() {
   const { id } = useParams();
